@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+
+        <EditText
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:inputType="text"
+            android:text="New life for mirea activity!" />
+    </TableRow>
+
+    <!-- Ряд 1 -->
+    <TableRow>
+        <Button android:text="Button 1"/>
+
+        <Button
+            android:layout_width="356dp"
+            android:text="Button 2" />
+    </TableRow>
+
+    <!-- Ряд 2 -->
+    <TableRow>
+        <Button android:text="Button 3"/>
+        <Button android:text="Button 4"/>
+    </TableRow>
+
+    <!-- Ряд 3 -->
+    <TableRow>
+        <Button android:text="Button 5"/>
+
+        <Button
+            android:layout_width="251dp"
+            android:text="Button 6" />
+    </TableRow>
+
+</TableLayout>
